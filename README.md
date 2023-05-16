@@ -11,5 +11,5 @@
 
 
 ### Ссылка на GitHub Pages
-https://melifaro13.github.io/mesto-react/
+https://melifaro13.github.io/react-mesto-auth
 
