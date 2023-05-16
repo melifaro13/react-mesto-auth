@@ -19,7 +19,7 @@ export default function Header(props) {
       {location.pathname === '/' && (
         <nav className='header__info'>
           <p className='header__mail'>{props.mail}</p>
-          <Link to="/signup" className="header__link" onClick={props.onClick}>Выйти</Link>  
+          <Link to="/signin" className="header__link" onClick={props.onClick}>Выйти</Link>  
         </nav> 
       )}
     </header>

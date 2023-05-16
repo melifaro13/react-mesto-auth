@@ -2,6 +2,6 @@
     cursor: pointer;
     width: 282px;
     height: 282px;
-    vertical-align: bottom;
     object-fit: cover;
+    display: block;
 }

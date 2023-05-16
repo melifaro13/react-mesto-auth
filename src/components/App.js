@@ -77,6 +77,7 @@ function App() {
   }
 
   useEffect(() => {
+    if (isLoggedIn === true) {
     Promise.all([api.getUserInfo(), api.getInitialCards()])
       .then(([info, card]) => {
         setCurrentUser(info);
@@ -85,7 +86,8 @@ function App() {
       .catch((err) => {
         console.error(err);
       });
-  }, []);
+  }
+ }, [isLoggedIn]);
 
   function handleUpdateAvatar(newAvatar) {
     api
